@@ -4,9 +4,9 @@ const Delivery = () => {
     const {langdb} = useContext(langContext);
     
     return ( 
-        <div className="containter py-20 lg:py-32 px-3">
-            <h2 className='primaryFont text-center text-2xl font-medium pb-16 tracking-wide'>{langdb.deliveryTitle}</h2>
-            <div className='flex gap-20 sm:gap-3 flex-wrap justify-evenly pt-5 '>
+        <div className="containter py-20 lg:py-32 px-5 md:px-0">
+            <h2 className='primaryFont text-center text-2xl font-medium pb-16 tracking-wide px-0 md:px-5'>{langdb.deliveryTitle}</h2>
+            <div className='flex gap-20 md:gap-5 flex-wrap justify-evenly pt-5 '>
                 {langdb.deliveryCards.map((card,index) => (
                     <div className='max-w-[350px] text-center shadow-xl p-5 rounded-lg' key={index}>
                         <div className="max-w-[150px] mx-auto">{card.icon}</div>
@@ -14,7 +14,7 @@ const Delivery = () => {
                     </div>
                 ))}
             </div>
-            <p className='text-center font-bold text-md py-10'>{langdb.deliveryDesc}</p>
+            <p className='text-center font-bold text-md py-10 px-3'>{langdb.deliveryDesc}</p>
         </div>
      );
 }
