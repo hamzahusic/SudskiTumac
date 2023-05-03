@@ -1,4 +1,4 @@
-import headerImage from '../img/header-image.jpg'
+import headerImage from '../img/headerImg.jpg'
 import { useContext } from "react";
 import { langContext } from "../lib/langContext";
 const Header = () => {

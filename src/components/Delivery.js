@@ -5,7 +5,7 @@ const Delivery = () => {
     
     return ( 
         <div className="containter py-32">
-            <h2 className='primaryFont text-center text-2xl font-medium pb-16 tracking-wide'>Dokumenti za prijevod se mogu dostaviti: </h2>
+            <h2 className='primaryFont text-center text-2xl font-medium pb-16 tracking-wide'>{langdb.deliveryTitle}</h2>
             <div className='flex gap-5 flex-wrap justify-evenly pt-5 '>
                 {langdb.deliveryCards.map((card,index) => (
                     <div className='max-w-[350px] text-center shadow-xl p-5 rounded-lg' key={index}>
