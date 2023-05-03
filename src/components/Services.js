@@ -15,7 +15,7 @@ const Services = () => {
             <div className='flex gap-5 flex-wrap pt-5'>
                 {servicesData.map((card,index) => (
                     <div className=' max-w-[350px]' key={index}>
-                        <img src={card.img} alt="card-image" className='rounded-md'/>
+                        <img src={card.img} alt="" className='rounded-md'/>
                         <p className='bg-white max-w-[90%] mx-auto relative bottom-[45px] p-3 font-bold tracking-wide text-center shadow-xl'>{card.text}</p>
                     </div>
                 ))}

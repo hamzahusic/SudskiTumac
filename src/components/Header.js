@@ -11,7 +11,7 @@ const Header = () => {
                 </div>
                 <a className="text-white py-[20px] px-[35px] bg-[#4cc5fd] secondaryFont font-bold tracking-wide" href="#contact">ZATRAŽITE PONUDU</a>
             </div>
-            <img src={headerImage} alt="Header Image"/>
+            <img src={headerImage} alt=""/>
         </div>
      );
 }
