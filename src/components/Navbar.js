@@ -11,9 +11,9 @@ const Navbar = () => {
 
   return (
         <div className="fixed top-0 left-0 right-0 shadow-lg bg-white z-[999]">
-              <nav className="flex containter py-5 justify-between px-3 sm:px-5 md:text-lg items-center">
-                  <p className="hidden sm:block font-bold tracking-wide">{langdb.navTitle}</p>
-                  <p className="block sm:hidden font-bold tracking-wide">{langdb.navShortTitle}</p>
+              <nav className="flex containter py-5 justify-between px-[17px] sm:px-5 md:text-lg items-center">
+                  <p className="hidden sm:block font-bold tracking-wide ">{langdb.navTitle}</p>
+                  <p className="block sm:hidden font-bold tracking-wide max-w-[40%] break-words">{langdb.navShortTitle}</p>
                   <div>
                         <a href="#contact" className="bg-[#4cc5fd] text-white font-bold py-2 px-5 md:px-10">{langdb.navBtn}</a>
                         <select className="p-1 sm:p-2 border-l-[1px] border-gray-500 ml-2 sm:ml-3" onChange={(e) => handleChange(e)}>

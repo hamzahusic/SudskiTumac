@@ -1,7 +1,7 @@
 import {TruckIcon,DevicePhoneMobileIcon,EnvelopeOpenIcon} from '@heroicons/react/24/outline'
 export const bosDb = {
     navTitle:"Ovlašteni sudski tumač za njemački jezik",
-    navShortTitle:"Ovlašteni suds...",
+    navShortTitle:"Sudski tumač",
     navBtn:"Kontakt",
     headerTitle:"Bajramović Aida – Ovlašteni sudski tumač za njemački jezik",
     headerDesc:"Vama uvijek na raspolaganju",
@@ -40,7 +40,7 @@ export const bosDb = {
   }
 export const deDb = {
     navTitle:"Gerichtsdolmetscherin für die deutsche Sprache",
-    navShortTitle:"Gerichtsdolmet...",
+    navShortTitle:"Gerichtsdolmetscherin",
     navBtn:"Kontakt",
     headerTitle:"Bajramović Aida – Gerichtsdolmetscherin für die deutsche Sprache",
     headerDesc:"Immer zu deiner Verfügung",
