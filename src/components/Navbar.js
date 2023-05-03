@@ -15,7 +15,7 @@ const Navbar = () => {
                   <p className="hidden sm:block font-bold tracking-wide ">{langdb.navTitle}</p>
                   <p className="block sm:hidden font-bold tracking-wide max-w-[40%] break-words">{langdb.navShortTitle}</p>
                   <div>
-                        <a href="#contact" className="bg-[#4cc5fd] text-white font-bold py-2 px-5 md:px-10">{langdb.navBtn}</a>
+                        <a href="#contact" className="bg-[#4cc5fd] text-white font-bold py-2 px-5 md:px-10 hover:bg-[#27a6e0]">{langdb.navBtn}</a>
                         <select className="p-1 sm:p-2 border-l-[1px] border-gray-500 ml-2 sm:ml-3" onChange={(e) => handleChange(e)}>
                               <option value="BA">BA</option>
                               <option value="DE">DE</option>

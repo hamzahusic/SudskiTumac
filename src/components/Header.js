@@ -10,7 +10,7 @@ const Header = () => {
                 <div className="pb-11 pt-5 secondaryFont text-black">
                     <p>{langdb.headerDesc}</p>
                 </div>
-                <a className="text-white py-[20px] px-[35px] bg-[#4cc5fd] secondaryFont font-bold tracking-wide" href="#contact">{langdb.headerBtn}</a>
+                <a className="text-white py-[20px] px-[35px] bg-[#4cc5fd] hover:bg-[#27a6e0]  secondaryFont font-bold tracking-wide" href="#contact">{langdb.headerBtn}</a>
             </div>
             <img src={headerImage} alt="" className='p-3'/>
         </div>
