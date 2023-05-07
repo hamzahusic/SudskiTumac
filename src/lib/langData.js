@@ -43,7 +43,7 @@ export const deDb = {
     navShortTitle:"Gerichtsdolmetscherin",
     navBtn:"Kontakt",
     headerTitle:"Bajramović Aida – Gerichtsdolmetscherin für die deutsche Sprache",
-    headerDesc:"Immer zu deiner Verfügung",
+    headerDesc:"Immer zu Ihrer Verfügung",
     headerBtn:"BITTE UM EIN ANGEBOT",
     serviceTitle:"Wir bieten Übersetzungsdienste von der bosnischen auf die deutsche Sprache und umgekehrt an:",
     serviceDesc:"Der Preis der Übersetzung richtet sich nach dem Umfang der Unterlagen, der Komplexität usw. Kontaktieren Sie uns und wir werden Ihnen so schnell wie möglich alle Details zu Ihrer Übersetzung zusenden.",
