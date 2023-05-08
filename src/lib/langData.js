@@ -12,7 +12,7 @@ export const bosDb = {
       {text:"Prijevod dokumenata sa ovjerom sudskog tumača (rodni listovi, vozačke dozvole, pasoši, uvjerenja o nekažnjavanju itd.)"},
       {text:"Prijevod dokumenta bez ovjere sudskog tumača (knjige, naučni tekstovi, brošure itd.)"},
       {text:"Prijevod dokumenata za školovanje u inostranstvu (svjedočanstva, diplome)"},
-      {text:"Prijevodi za kompanije (Ugovori, tenderska dokumentacija, prezentacije)"},
+      {text:"Prijevodi za kompanije (ugovori, tenderska dokumentacija, prezentacije)"},
       {text:"Prijevodi dokumenata za zaposlenje u inostranstvu (CV, motivaciono pismo)"},
       {text:"Prijevod sudske dokumentacije (rješenja, uvjerenja, presude)"},
   ],
