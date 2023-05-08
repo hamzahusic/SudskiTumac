@@ -10,7 +10,8 @@ const Delivery = () => {
                 {langdb.deliveryCards.map((card,index) => (
                     <div className='max-w-[350px] text-center shadow-xl p-5 rounded-lg' key={index}>
                         <div className="max-w-[150px] mx-auto">{card.icon}</div>
-                        <p className='bg-white p-3 font-bold tracking-wide'>{card.text}</p>
+                        {index !== 2 && <p className='bg-white p-3 font-bold tracking-wide'>{card.text}</p>}
+                        {index === 2 && <a href="mailto:njemackiprevod@gmail.com" rel="noreferrer" target="_blank" className='bg-white px-3 relative top-0 md:top-3 font-bold tracking-wide underline'>{card.text}</a>}
                     </div>
                 ))}
             </div>

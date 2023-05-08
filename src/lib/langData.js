@@ -28,13 +28,13 @@ export const bosDb = {
       },
       {
           icon:<EnvelopeOpenIcon/>,
-          text:"putem E-Mail-a na aida.bajramovic@gmail.com"
+          text:"putem E-Mail-a na njemackiprevod@gmail.com"
       }
   ],
   deliveryDesc:"Za preuzimanje ovjerenog prijevoda neophodno je donijeti orginalni dokument ili ovjerenu kopiju",
   contactTitle:"Kontakt",
   contactPhone : "Tel : 061 174 442",
-  contactEmail : "E-Mail adresa : aida.bajramovic@gmail.com",
+  contactEmail : "E-Mail adresa : njemackiprevod@gmail.com",
   contactMessageOne:"Prevodimo brzo i pouzdano",
   contactMessageTwo:"Arhiviramo Vaše prevode radi naknadne izrade dodatnih primjeraka"
   }
@@ -67,13 +67,13 @@ export const deDb = {
       },
       {
           icon:<EnvelopeOpenIcon/>,
-          text:"per E-Mail an aida.bajramovic@gmail.com"
+          text:"per E-Mail an njemackiprevod@gmail.com"
       }
   ],
   deliveryDesc:"Zur Übergabe der beglaubigten Übersetzung muss das Originaldokument oder eine beglaubigte Kopie mitgebracht werden.",
   contactTitle:"Kontakt",
   contactPhone : "Telefonnummer : 061 174 442",
-  contactEmail : "E-Mail Adresse : aida.bajramovic@gmail.com",
+  contactEmail : "E-Mail Adresse : njemackiprevod@gmail.com",
   contactMessageOne:"Wir übersetzen schnell und zuverlässig",
   contactMessageTwo:"Wir archivieren Ihre Übersetzungen für eine spätere Anfertigung weiterer Kopien"
   }

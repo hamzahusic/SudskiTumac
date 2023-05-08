@@ -10,7 +10,7 @@ const Contact = () => {
                 <div className="font-bold text-lg py-5 flex flex-col gap-3 tracking-wide">
                     <p>Aida Bajramović</p>
                     <p>{langdb.contactPhone}</p>
-                    <p>{langdb.contactEmail}</p>
+                    <a href="mailto:njemackiprevod@gmail.com" rel="noreferrer" target="_blank" className="underline">{langdb.contactEmail}</a>
                     <p className="text-md lg:text-xl pt-5">{langdb.contactMessageOne}</p>
                     <p className="text-md lg:text-xl">{langdb.contactMessageTwo}</p>
                 </div>
