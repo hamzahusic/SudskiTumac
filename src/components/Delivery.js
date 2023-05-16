@@ -4,7 +4,7 @@ const Delivery = () => {
     const {langdb} = useContext(langContext);
     
     return ( 
-        <div className="containter pb-20 pt-5 lg:py-28 px-5 md:px-0">
+        <section className="containter pb-20 pt-5 lg:py-28 px-5 md:px-0">
             <h2 className='primaryFont text-center text-2xl font-medium pb-14 md:pb-16 tracking-wide px-0 md:px-5'>{langdb.deliveryTitle}</h2>
             <div className='flex gap-20 md:gap-5 flex-wrap justify-evenly pt-5 '>
                 {langdb.deliveryCards.map((card,index) => (
@@ -16,7 +16,7 @@ const Delivery = () => {
                 ))}
             </div>
             <p className='text-center font-bold text-md py-10 px-3'>{langdb.deliveryDesc}</p>
-        </div>
+        </section>
      );
 }
  

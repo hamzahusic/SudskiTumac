@@ -16,8 +16,10 @@ function App() {
       <langContext.Provider value={{langdb,setLangDb}}>
         <Navbar/>
         <Header/>
-        <Services/>
-        <Delivery/>
+        <main>
+          <Services/>
+          <Delivery/>
+        </main>
         <Contact/>
       </langContext.Provider>
     </div>
